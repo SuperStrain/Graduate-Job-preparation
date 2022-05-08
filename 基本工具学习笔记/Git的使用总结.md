@@ -27,7 +27,7 @@ git push -u origin master
 
 可以用`git status` 去查看当前状态
 
-+++
+---
 
 ### 更新
 
@@ -57,14 +57,14 @@ git push  <远程仓库别名或仓库地址>  <要上传的本地分支名>
 
 `git clone -b <分支名> <远程仓库地址>`
 
-+++
+---
 
 **与分支有关的命令：**
 
 * 查看现有分支：`git branch -a`
 * 切换分支：       `git checkout <分支>`
 
-+++
+---
 
 ## Visual Studio
 
