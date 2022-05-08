@@ -134,21 +134,68 @@ ________
 
 # 绘制图表
 
-1. 饼形图(Pie Chart)
+> **本质是在代码块运行简单程序**
 
-mermaid
+* 饼形图(Pie Chart)
+
+```mermaid
+
     pie 
     title Pets adopted by volunteers
     "Dogs" : 386
     "Cats" : 85
-    "Rats" : 15 
+    "Rats" : 15
+```
 
-2. 流程图（Flow Chart）
+* 流程图（Flow Chart）
 
-3. 时序图（Sequence Diagram）
+```mermaid
+graph RL;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 
-4. 状态图(State Diagram)
+```mermaid
+graph LR
+    A:::someclass --> B
+    classDef someclass fill:#f96;
+```
 
-5. 甘特图（Gantt Diagram）
+* 时序图（Sequence Diagram）
 
-6. 类图(class Diagram)
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    participant John
+    
+    Alice->>John: Hello John, how are you?
+    
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```
+
+* 状态图(State Diagram)
+
+* 甘特图（Gantt Diagram）
+
+* 类图(class Diagram)
+
+...............
+
+[Markdown里面使用mermaid画流程图](https://blog.csdn.net/Subson/article/details/78054689?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165203012816782390568426%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=165203012816782390568426&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~baidu_landing_v2~default-4-78054689-null-null.142^v9^control,157^v4^control&utm_term=markdown+mermaid&spm=1018.2226.3001.4187 "CSDN")
+
+[点击获得更多类型](https://blog.csdn.net/weixin_38008864/article/details/106866122?%3E "CSDN")
+
+# 快捷键
+
+[typora快捷键](https://blog.csdn.net/u011608357/article/details/108552962?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165203029416782248569636%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=165203029416782248569636&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-108552962-null-null.142^v9^control,157^v4^control&utm_term=markdown%E5%BF%AB%E6%8D%B7%E9%94%AE&spm=1018.2226.3001.4187 "CSDN")
+
