@@ -1,3 +1,5 @@
+[toc]
+
 # 注意事项
 
 - **转义字符**
@@ -60,6 +62,22 @@ ________
 * [点击看Git知识](Git的使用总结.md)
 
 `[点击看Git知识](Git的使用总结.md)`
+
+* [看论文](C:\Users\11431\Desktop\论文\一种紫外光敏电阻的制备与性能评价.docx)
+
+`[看论文](C:\Users\11431\Desktop\论文\一种紫外光敏电阻的制备与性能评价.docx)`
+
+`注意：括号内使用绝对地址或相对地址都可以的`
+
+## 页内跳转
+
+语法：`[链接文字](#标题文字[二级标题也可])`
+
+* 请看：[这里到拓展用法上下标](#上下标 )
+
+**要点注意：**
+
+`()`内声明要跳转的目标标题，以`#`开头，标题内包含点、下划线**直接忽略**，有空格使用`-`代替，大写字母转换为小写字母。
 
 # 图片
 
@@ -195,7 +213,18 @@ sequenceDiagram
 
 [点击获得更多类型](https://blog.csdn.net/weixin_38008864/article/details/106866122?%3E "CSDN")
 
-# 快捷键
+# 拓展用法
+
+## 快捷键
 
 [typora快捷键](https://blog.csdn.net/u011608357/article/details/108552962?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165203029416782248569636%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=165203029416782248569636&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-108552962-null-null.142^v9^control,157^v4^control&utm_term=markdown%E5%BF%AB%E6%8D%B7%E9%94%AE&spm=1018.2226.3001.4187 "CSDN")
 
+## 生成目录
+
+`[toc]`
+
+## 上下标
+
+* 下标：`~2~`如：H~2~
+
+* 下标：`^2^`如：x^2^
