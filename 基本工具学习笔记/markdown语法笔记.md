@@ -52,11 +52,14 @@ ________
 
   [1]: http://www.baidu.com "百度一下，你就知道"
   
+* 以下为语法：
+  
   ```
-  更直接如： <https://www.baidu.com>
-  直接设置（常用）:如：[百度](https://www.baidu.com "百度一下，你就知道(悬停文字)")
-  间接设置：如：[百度][1]
+  <https://www.baidu.com>
+  [百度](https://www.baidu.com "百度一下，你就知道(悬停文字)")
+  [百度][1]
     [1]: http://www.baidu.com "百度一下，你就知道（悬停文字）"
+  
 ## 本地内链接
 
 * [点击看Git知识](Git的使用总结.md)
@@ -181,7 +184,7 @@ graph LR
     classDef someclass fill:#f96;
 ```
 
-* 时序图（Sequence Diagram）
+* 时序图（Sequence Diagram）[点击可具体教学](https://blog.csdn.net/kl28978113/article/details/93617103?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165216529716782395379144%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=165216529716782395379144&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-93617103-null-null.142^v9^control,157^v4^control&utm_term=markdown%E7%BB%98%E5%88%B6%E6%B5%81%E7%A8%8B%E5%9B%BE&spm=1018.2226.3001.4187 "CSDN")
 
 ```mermaid
 sequenceDiagram
@@ -201,6 +204,7 @@ sequenceDiagram
     Bob-->>John: Jolly good!
 ```
 
+
 * 状态图(State Diagram)
 
 * 甘特图（Gantt Diagram）
@@ -216,6 +220,8 @@ sequenceDiagram
 # 拓展用法
 
 ## 快捷键
+
+==大多数快捷键都可以看页面的显示==
 
 [typora快捷键](https://blog.csdn.net/u011608357/article/details/108552962?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165203029416782248569636%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=165203029416782248569636&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-108552962-null-null.142^v9^control,157^v4^control&utm_term=markdown%E5%BF%AB%E6%8D%B7%E9%94%AE&spm=1018.2226.3001.4187 "CSDN")
 
